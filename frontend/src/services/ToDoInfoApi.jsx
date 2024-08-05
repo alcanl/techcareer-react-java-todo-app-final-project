@@ -1,9 +1,4 @@
 
-// http://localhost:4444/blog/category/api/v1/delete/all
-// proxy:    http://localhost:4444/
-// persist:  blog/category/api/v1
-// URL:      /delete/all
-
 import axios from "axios";
 
 // PERSIST

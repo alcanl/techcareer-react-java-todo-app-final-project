@@ -4,14 +4,14 @@
 import React from "react";
 import { withTranslation } from "react-i18next";
 import { Navigate, Route, Routes } from "react-router-dom";
-import BlogCategoryCreate from "./components/toDoInfo/ToDoInfoCreate";
-import BlogCategoryList from "./components/toDoInfo/ToDoInfoList";
-import BlogCategoryUpdate from "./components/toDoInfo/ToDoInfoUpdate";
-import BlogCategoryView from "./components/toDoInfo/ToDoInfoView";
+import ToDoInfoCreate from "./components/toDoInfo/ToDoInfoCreate";
+import ToDoInfoList from "./components/toDoInfo/ToDoInfoList";
+import ToDoInfoUpdate from "./components/toDoInfo/ToDoInfoUpdate";
+import ToDoInfoView from "./components/toDoInfo/ToDoInfoView";
 
 // HEADER,MAIN,FOOTER
-import BlogFooter from "./components/ToDoFooter";
-import BlogHeader from "./components/ToDoHeader";
+import ToDoInfoFooter from "./components/ToDoFooter";
+import ToDoInfoHeader from "./components/ToDoHeader";
 import ToDoMain from "./components/ToDoMain";
 import NotFound from "./components/NotFound";
 
@@ -22,7 +22,7 @@ function ToDoRouter() {
     // <>ToDoRouter</>
     <React.Fragment>
       {/* Blog Header */}
-      <BlogHeader logo="fa-solid fa-blog"></BlogHeader>
+      <ToDoInfoHeader logo="fa-solid fa-blog"></ToDoInfoHeader>
 
       {/* Blog Main */}
       <div className="container App-header" style={{marginTop:"5rem"}}>
@@ -32,10 +32,10 @@ function ToDoRouter() {
 
           {/*Blog Categories */}
           {/* http://localhost:3000/blog/category/list */}
-          <Route path={"/blog/category/list"} element={<BlogCategoryList />} />
-          <Route path={"/blog/category/create"} element={<BlogCategoryCreate />} />
-          <Route path={"/blog/category/view/:id"} element={<BlogCategoryView />} />
-          <Route path={"/blog/category/update/:id"} element={<BlogCategoryUpdate />} />
+          <Route path={"/blog/category/list"} element={<ToDoInfoList />} />
+          <Route path={"/blog/category/create"} element={<ToDoInfoCreate />} />
+          <Route path={"/blog/category/view/:id"} element={<ToDoInfoView />} />
+          <Route path={"/blog/category/update/:id"} element={<ToDoInfoUpdate />} />
 
           {/* <Route path={"*"} element={<Navigate to={"/"}/>} /> */}
           <Route path={"*"} element={<NotFound/>} />
@@ -45,7 +45,7 @@ function ToDoRouter() {
       </div>
 
       {/* Blog Footer */}
-      <BlogFooter copy="Tüm Haklar Saklıdır."></BlogFooter>
+      <ToDoInfoFooter copy="Tüm Haklar Saklıdır."></ToDoInfoFooter>
     </React.Fragment>
   ); //end return
 } // end ToDoRouter

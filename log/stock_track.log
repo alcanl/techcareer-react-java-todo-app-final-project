@@ -87,3 +87,5 @@ Identify and stop the process that's listening on port 3000 or configure this ap
 2024-08-05T08:09:09.852+03:00  INFO 2320 --- [ToDoApplication] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d798e76
 2024-08-05T08:09:09.856+03:00  INFO 2320 --- [ToDoApplication] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
 2024-08-05T08:09:15.364+03:00  INFO 2320 --- [ToDoApplication] [main] com.alcanl.app.ToDoApplication           : Started ToDoApplication in 12.33 seconds (process running for 14.045)
+2024-08-05T08:51:40.841+03:00  INFO 2320 --- [ToDoApplication] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-05T08:51:40.886+03:00  INFO 2320 --- [ToDoApplication] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
