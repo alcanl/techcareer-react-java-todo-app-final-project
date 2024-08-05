@@ -4,9 +4,7 @@ import com.alcanl.app.data.entity.ToDoInfo;
 import com.alcanl.app.data.repository.IToDoRepository;
 import com.alcanl.app.exception.RepositoryException;
 import lombok.AllArgsConstructor;
-import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
 
 import java.util.Optional;
