@@ -76,3 +76,14 @@ Identify and stop the process that's listening on port 3000 or configure this ap
 2024-08-05T07:46:43.750+03:00  INFO 21620 --- [ToDoApplication] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a6195b8
 2024-08-05T07:46:43.753+03:00  INFO 21620 --- [ToDoApplication] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
 2024-08-05T07:46:46.449+03:00  INFO 21620 --- [ToDoApplication] [main] com.alcanl.app.ToDoApplication           : Started ToDoApplication in 6.874 seconds (process running for 8.235)
+2024-08-05T07:59:27.576+03:00  INFO 21620 --- [ToDoApplication] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-05T07:59:27.852+03:00  INFO 21620 --- [ToDoApplication] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-05T08:09:03.928+03:00  INFO 2320 --- [ToDoApplication] [main] com.alcanl.app.ToDoApplication           : Starting ToDoApplication using Java 21 with PID 2320 (C:\Users\alica\Documents\GitHub\ToDoApplication\target\classes started by alica in C:\Users\alica\Documents\GitHub\ToDoApplication)
+2024-08-05T08:09:03.933+03:00  INFO 2320 --- [ToDoApplication] [main] com.alcanl.app.ToDoApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-08-05T08:09:06.864+03:00  INFO 2320 --- [ToDoApplication] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-05T08:09:06.865+03:00  INFO 2320 --- [ToDoApplication] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-08-05T08:09:07.042+03:00  INFO 2320 --- [ToDoApplication] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-05T08:09:09.361+03:00  INFO 2320 --- [ToDoApplication] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-05T08:09:09.852+03:00  INFO 2320 --- [ToDoApplication] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d798e76
+2024-08-05T08:09:09.856+03:00  INFO 2320 --- [ToDoApplication] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-05T08:09:15.364+03:00  INFO 2320 --- [ToDoApplication] [main] com.alcanl.app.ToDoApplication           : Started ToDoApplication in 12.33 seconds (process running for 14.045)

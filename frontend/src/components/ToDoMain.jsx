@@ -9,7 +9,7 @@ function ToDoMain() {
     <React.Fragment>
     
       <h1 className="mt-3 mb-4 text-center display-4 text-uppercase">
-        Blog Page Welcome
+        To Do List Page Welcome
       </h1>
 
       <p>
